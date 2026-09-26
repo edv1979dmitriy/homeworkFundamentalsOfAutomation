@@ -28,7 +28,7 @@ public class CashbackHackServiceTest {
     @Test
     public void remainTestIfAmountBiggerBoundary() {
 
-        int expected = 0;
+        int expected = 999;
         int actual = service.remain(1001);
 
         Assert.assertEquals(actual, expected);
